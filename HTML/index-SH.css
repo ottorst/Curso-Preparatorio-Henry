@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.likeButton {
+    position: fixed;
+    padding: 6px 18px;
+    color: #003F70;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+/* EL ESTILO DE LA ETIQUETA HEADER QUE PIDE LA HOMEWORK 11*/
+
+header {
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #003F70;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    list-style-type: none;
+}
+
+nav.navMenu {
+    background-color: #003F70;
+}
+
+nav.navSubMenu {
+    background-color: #CCCCCC;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    height: auto;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+/*    border: 1px solid #004b84;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 0 12px;
+    margin: 4px 12px;
+    display: flex;
+    align-items: center;
+    */
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 8px 12px;
+    color: #003F70;
+}
+
+table {
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}

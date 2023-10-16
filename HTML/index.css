@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --indexImageWidth: 90%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #003F70;
+}
+
+.indexBox {
+    width: var(--indexImageWidth);
+    position: relative;
+    left: calc(50% - var(--indexImageWidth) / 2);
+}
+
+.indexBox img {
+    width: 100%;
+}
+
+.indexBox > div {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 20px;
+    top: 20px;
+}
+
+a.likeButton {
+    /*position: fixed;*/
+    padding: 6px 18px;
+    color: #003F70;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav {
+    width: auto;
+    overflow: auto;
+}
+
+nav.navMenu {
+    background-color: #003F70;
+}
+
+nav.navSubMenu {
+    background-color: #CCCCCC;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul li {
+    border: 1px solid #004b84;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 0 12px;
+    margin: 4px 12px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 8px 12px;
+    color: #003F70;
+}
+
+table {
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+/* Prácticas de la clase  */
+
+section {
+    padding: 50px 30px;
+    margin-left: 40px;
+    /* se aplicará a section */
+}
+
+section article {
+    background-color: #CCCCCC;
+    width: 500px;
+    /* se aplicará a article, más las
+    propiedades de section */
+}
+
+section article h2 {
+    height: 4em;
+    /* se aplicará a h2, más las
+    propiedades de section y article */
+}

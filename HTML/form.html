@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10.0">
+    <title>Madrid - Formulario</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <nav class="navMenu">
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./accommodation.html">Alojamiento</a></li>
+            <li><a href="./visits_activities.html">Visitas y Actividades</a></li>
+            <li><a href="./entertainment.html">Entretenimiento</a></li>
+            <li><a href="./form.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+    <form action="mailto:otto.st@gmail.com?subject=Contacto Web" method="post" enctype="text/plain">
+        <label for="lblnombre">Nombre:</label>
+        <input type="text" id="lblnombre" name="nombre" required />
+        <br>
+        <label for="lblmailto">Correo electrónico:</label>
+        <input type="email" id="lblemail" name="email" required />
+        <br>
+        <label for="lblmessage">Mensaje:</label>
+        <textarea id="lblmessage" name="mensaje" rows="5" cols="33" required ></textarea>
+        <br>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpiar" />
+    </form>
+</body>
